@@ -1,0 +1,148 @@
+.top-nav{
+    background-color: #ece0d1;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .top-nav li {
+    padding: 8px;
+    font-family: 'Raleway', sans-serif, 'Times New Roman', Times, serif;
+    font-size: 80%;
+    font-weight: 600;
+    
+    
+  } 
+  
+  .top-nav ul{
+    padding: 0;
+  }  
+  
+  #logo{
+    width: 50%;
+    height: 40%;
+    margin-left: -10px;
+  }
+  .top-nav a{
+    color: #634832;
+    font-size: 90%;
+    text-decoration: none;
+  }
+  
+  .happyheader{
+    margin: 20px 20px 0px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #634832;
+    font-size: 60%;
+    font-weight: 800;
+    text-align: center;
+    
+  }
+  
+  .happyheader p{
+    font-family: 'Raleway', sans-serif,'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 90%;
+    color: black;
+  }
+  body{
+    margin: 0;
+  }
+  footer {
+    margin-top: 8px;
+  background-color: #c08e69;
+    color: #fff;
+    padding: 2px;
+    text-align: left;
+    font-size: 10px;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.2);
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    height: 225px;
+}
+
+Button {
+    display: inline-block;
+    margin: 15px auto; 
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgb(212, 165, 104);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 35%;
+    border-color:  rgb(212, 165, 104);
+    /* padding: 2px 10px; */
+    /* width: 125px;
+    
+    margin-top: -20px;
+    margin-right: 125px; */
+    font-size: 15px;
+    margin-top: 25px;
+} 
+
+p{
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #38220f;
+}
+
+
+  @media screen and (min-width: 900px){
+    .top-nav{
+        display: flex;
+        justify-content: center;
+    }
+  
+    .top-nav li{
+        display: inline; 
+    }
+  
+    #logo{
+      height: 100%;
+    }
+
+    #final{
+        display: grid;
+        grid-template-columns: 45% 50%;
+        grid-template-rows: auto;
+        grid-template-areas: "finalImg finalDesc";
+        column-gap: 2%;
+    }
+    img{
+        width: 100%;
+        max-width: 100%;
+        height: 306px;
+    }
+
+    #final img{
+        grid-area: finalImg;  
+    }
+    
+    #finalDescription{
+        grid-area: finalDesc;
+    }
+
+    Button {
+        display: inline-block;
+        margin: 15px auto; 
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+        background-color: rgb(212, 165, 104);
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        margin-left: 45%;
+        border-color:  rgb(212, 165, 104);
+        font-size: 20px;
+        margin-top: 50px;
+    
+  }
+  
+}
