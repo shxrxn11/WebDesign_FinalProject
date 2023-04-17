@@ -1,5 +1,5 @@
 .top-nav{
-    background-color: #ece0d1;
+    background-color: #5f94b3;
     text-align: center;
     padding: 5px;
   }
@@ -10,7 +10,11 @@
     font-size: 80%;
     font-weight: 600;
     
+    
   } 
+  .top-nav li:hover > ul {
+    display: block;
+  }
   
   .top-nav ul{
     padding: 0;
@@ -22,7 +26,7 @@
     margin-left: -10px;
   }
   .top-nav a{
-    color: #634832;
+    color: #13335f;
     font-size: 90%;
     text-decoration: none;
   }
@@ -30,7 +34,7 @@
   .happyheader{
     margin: 20px 20px 0px 20px;
     font-family: 'Roboto Condensed', sans-serif;
-    color: #634832;
+    color: #13335f;
     font-size: 60%;
     font-weight: 800;
     text-align: center;
@@ -42,10 +46,6 @@
     font-weight: 500;
     font-size: 90%;
     color: black;
-  }
-
-  span{
-    color: #956337;
   }
   body{
     margin: 0;
@@ -67,16 +67,16 @@
   }
   
   .firstsection{
-    background-color: #dbc1ac;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     padding: 10px;
     margin: 8px;
+    background-color: #b7dcf1;
   }
   
   .firstsection h3{
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-    color: #38220f;
+    color: #13335f;
     
   
   }
@@ -87,6 +87,10 @@
     font-weight: 400;
   
   }
+
+  span{
+    color: #053b87;
+  }
   
   .image-frame {
     display: flex;
@@ -96,7 +100,7 @@
   
   .image-frame img {
     margin: 5px;
-    width: 200px;
+    width: 400px;
     height: 200px;
     object-fit: cover;
   }
@@ -106,12 +110,13 @@
     margin: 8px;
     margin-top: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #d3dde3;
   }
   .secondsection h3{
     text-align: center;
     font-family: 'Bad Script', cursive, 'Times New Roman', Times, serif;
     font-weight: 600;
-    color: #634832;
+    color: #13335f;
   }
   .transparentbackground{
     background-color: rgba(255, 255, 255, 0.5);
@@ -125,20 +130,9 @@
     margin: 8px;
     margin-top: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    background-image: url('images/coffeeBeans.jpg');
-    position: relative;
+    background-color: #d4e8f5;
   }
   
-  .thirdsection::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    backdrop-filter: blur(2px);
-  }
   
   .thirdsection p{
     margin: 5px;
@@ -146,6 +140,7 @@
     filter: blur(0px);
     opacity: 50;
   }
+
   .thirdsection h3{
     text-align: center;
     margin: 3px;
@@ -156,8 +151,7 @@
   }
   footer {
     margin-top: 20px;
-    background-color: #c08e69;
-    color: #fff;
+    background-color: #b7dcf1;
     padding: 2px;
     text-align: left;
     font-size: 10px;
@@ -199,18 +193,12 @@
       float: left;
       margin-right: 20px;
       width: 170px;
-      height: 200px;
+      height: 180px;
       border-radius: 20%;
       overflow: hidden;
       border: 3px solid #fff;
-      margin-left: 45px ;
+      margin-left: 37px ;
     }
-    
-    /* .circle-frame img {
-      width: 20%;
-      height: 20%;
-      object-fit: cover;
-    } */
     
     .firstsection{
         padding: 20px;
@@ -228,7 +216,6 @@
   
     .image-frame img {
       margin: 20px;
-      justify-content: space-between;
     }
     #logo{
       height: 100%;
@@ -245,8 +232,4 @@
       font-size: 20px;
   
 }
-    
   }
-        
-        
-    

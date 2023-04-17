@@ -1,5 +1,5 @@
 .top-nav{
-    background-color: #ece0d1;
+    background-color: #dcc5de;
     text-align: center;
     padding: 5px;
   }
@@ -22,7 +22,7 @@
     margin-left: -10px;
   }
   .top-nav a{
-    color: #634832;
+    color: #8135ce;
     font-size: 90%;
     text-decoration: none;
   }
@@ -30,7 +30,7 @@
   .happyheader{
     margin: 20px 20px 0px 20px;
     font-family: 'Roboto Condensed', sans-serif;
-    color: #634832;
+    color: #63324f;
     font-size: 60%;
     font-weight: 800;
     text-align: center;
@@ -43,9 +43,9 @@
     font-size: 90%;
     color: black;
   }
-
   span{
-    color: #956337;
+    font-size: 17px;
+    color: #FF0099;
   }
   body{
     margin: 0;
@@ -67,7 +67,7 @@
   }
   
   .firstsection{
-    background-color: #dbc1ac;
+    background-color: #8cb9ce;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     padding: 10px;
     margin: 8px;
@@ -106,6 +106,8 @@
     margin: 8px;
     margin-top: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-image: url('images/NimBackground3.png');
+    position: relative;
   }
   .secondsection h3{
     text-align: center;
@@ -115,7 +117,7 @@
   }
   .transparentbackground{
     background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
   
   }
   .thirdsection{
@@ -125,19 +127,8 @@
     margin: 8px;
     margin-top: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    background-image: url('images/coffeeBeans.jpg');
-    position: relative;
-  }
-  
-  .thirdsection::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    backdrop-filter: blur(2px);
+    background-color: #b686d4;
+    background-image: url('images/NimBackground2.png');
   }
   
   .thirdsection p{
@@ -156,7 +147,7 @@
   }
   footer {
     margin-top: 20px;
-    background-color: #c08e69;
+    background-color: #ca9dcf;
     color: #fff;
     padding: 2px;
     text-align: left;
@@ -205,12 +196,6 @@
       border: 3px solid #fff;
       margin-left: 45px ;
     }
-    
-    /* .circle-frame img {
-      width: 20%;
-      height: 20%;
-      object-fit: cover;
-    } */
     
     .firstsection{
         padding: 20px;
